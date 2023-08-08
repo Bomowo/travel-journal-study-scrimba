@@ -38,9 +38,13 @@
 }
 
 nav {
-  background-color: black;
+  background-color: #F55A5A;
+  display: flex;
+  padding: 16px;
+  justify-content: center;
 }
 
 nav span {
   color: white;
+  margin-left: 7px;
 }

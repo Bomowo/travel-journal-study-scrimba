@@ -1,5 +1,6 @@
 import Card from './components/Card';
 import data from './components/data';
+import logo from './resource/Earth-icon.svg'
 import './App.css';
 
 

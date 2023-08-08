@@ -1,4 +1,3 @@
-import Header from './components/Header';
 import Card from './components/Card';
 import data from './components/data';
 import './App.css';
@@ -16,7 +15,10 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+        <nav>
+            <img src={logo} alt=""/>
+            <span>my travel journal.</span>
+        </nav>
       {cards}
     </div>
   );
